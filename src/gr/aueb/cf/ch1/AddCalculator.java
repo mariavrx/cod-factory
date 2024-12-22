@@ -7,7 +7,7 @@ public class AddCalculator {
         int result =0;
 
         result= add(num1, num2);
-
+        System.out.println("Sum:" + result);
     }
     public static int add(int a, int b){
         return a + b;
